@@ -1,0 +1,25 @@
+# Core packages
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0
+datasets>=2.18.0
+scikit-learn>=1.2.0
+numpy>=1.23.0
+pillow>=9.5.0
+matplotlib>=3.7.0
+
+# Diffusers and GAN utilities
+diffusers>=0.24.0
+accelerate>=0.21.0
+ftfy>=6.1.1
+safetensors>=0.3.3
+
+# Streamlit for the integrated app
+streamlit>=1.30.0
+
+# For exporting/downloading models
+ipywidgets>=8.0.6
+ipython>=8.12.0
+
+# Optional - if using Google Colab
+colabcode
